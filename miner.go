@@ -9,9 +9,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	rpc "github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/zeusyf/btcd/chaincfg/chainhash"
+	rpc "github.com/zeusyf/btcd/rpcclient"
+	"github.com/zeusyf/btcutil"
 )
 
 // Miner holds all the core features required to register, run, control,

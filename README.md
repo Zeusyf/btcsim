@@ -3,7 +3,7 @@ btcsim
 
 [![Build Status](http://img.shields.io/travis/btcsuite/btcsim.svg)](https://travis-ci.org/btcsuite/btcsim)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/btcsuite/btcsim)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/zeusyf/btcsim)
 
 btcsim implements a simulation test driver using the `simnet` network provided
 by `btcd`. It launches the required nodes, manages them, runs the simulation
@@ -56,17 +56,17 @@ responsible for collecting transactions and mining them when required.
 btcsim depends on `btcd` and `btcwallet`, so install those first
 
 ```bash
-$ go get github.com/btcsuite/btcd
+$ go get github.com/zeusyf/btcd
 ```
 
 ```bash
-$ go get github.com/btcsuite/btcwallet
+$ go get github.com/zeusyf/btcwallet
 ```
 
 Now install btcsim
 
 ```bash
-$ go get github.com/btcsuite/btcsim
+$ go get github.com/zeusyf/btcsim
 ```
 
 ## Usage

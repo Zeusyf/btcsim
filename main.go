@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/zeusyf/btcutil"
 
 	"math/rand"
 	_ "net/http/pprof"

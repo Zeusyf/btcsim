@@ -11,9 +11,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	rpc "github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/zeusyf/btcd/chaincfg/chainhash"
+	rpc "github.com/zeusyf/btcd/rpcclient"
+	"github.com/zeusyf/btcutil"
 )
 
 // MissingCertPairFile is raised when one of the cert pair files is missing
